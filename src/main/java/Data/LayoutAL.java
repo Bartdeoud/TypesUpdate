@@ -1,6 +1,6 @@
-package Beans;
+package Data;
 
-public class FormatLayout
+public class LayoutAL
 {
     private final int kolom;
     private final String veldnaam;
@@ -8,7 +8,8 @@ public class FormatLayout
     private final int eind;
     private String toelichting;
 
-    public FormatLayout(int kolom, String veldnaam, int begin, int eind, String toelichting)
+    //the layout for the format artlev
+    public LayoutAL(int kolom, String veldnaam, int begin, int eind, String toelichting)
     {
         this.kolom = kolom;
         this.veldnaam = veldnaam;
@@ -17,7 +18,7 @@ public class FormatLayout
         this.toelichting = toelichting;
     }
 
-    public FormatLayout(int kolom, String veldnaam, int begin, int eind)
+    public LayoutAL(int kolom, String veldnaam, int begin, int eind)
     {
         this.kolom = kolom;
         this.veldnaam = veldnaam;
